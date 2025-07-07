@@ -70,11 +70,11 @@ for i in range(len(clips)):
 #  audio mp3 files VOCAB
 ############################################################
 # read in the mp3 files
-clipsVocab = os.listdir('Lesson1Audio/Vocab/')
+clipsVocab = os.listdir('mp3Files/')
 
 # attach 'mp3Files/' file names
 for i in range(len(clipsVocab)):
-	clipsVocab[i] = 'Lesson1Audio/Vocab/' + clipsVocab[i]
+	clipsVocab[i] = 'mp3Files' + clipsVocab[i]
 
 #############################################################
 #    image png files
